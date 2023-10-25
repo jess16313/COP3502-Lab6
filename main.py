@@ -5,5 +5,5 @@ for i in range(0,8):
     finpassword[i]=int(finpassword[i])+3
     finpassword[i]=str(finpassword[i])
 
-''.join(finpassword)
+finpassword=''.join(finpassword)
 print(finpassword)
